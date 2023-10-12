@@ -175,3 +175,51 @@ nav .navigation ul li a:hover {
     font-weight: 500;
     letter-spacing: 1px;
 }
+
+/* courses */
+
+#course {
+    padding: 6vw 6vw 0 6vw;
+    text-align: center;
+}
+
+#course .course-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1.2rem;
+    margin-top: 50px;
+}
+
+#course .courses {
+    text-align: start;
+    background: azure;
+    height: 100%;
+    position: relative;
+}
+
+#course .courses img {
+    width: 100%;
+    border-radius: 8px;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+}
+
+#course .courses .star {
+    color: #e9c505;
+    font-size: 1.2rem;
+}
+
+#course .courses .cost {
+    background-color: #0e9306;
+    color: white;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    bottom: 90px;
+}
