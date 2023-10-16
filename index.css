@@ -309,3 +309,47 @@ nav .navigation ul li a:hover {
     color: aliceblue;
     background-color: green;
 }
+
+
+/* Experts  */
+
+
+#experts {
+    padding: 6vw 6vw 0 6vw;
+    text-align: center;
+}
+
+#experts .expert-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1.2rem;
+    margin-top: 50px;
+}
+
+#experts .expert-box img {
+    border-radius: 50%;
+}
+
+#experts .expert-box .profiles {
+    background-color: azure;
+    padding: 30px 10px;
+}
+
+.pro-links {
+    margin-top: 10px;
+}
+
+.pro-links i {
+    padding: 10px 14px;
+    border: 1px solid rgb(21, 21, 100);
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 4px;
+}
+
+.pro-links i:hover {
+    background: rgb(21, 21, 100);
+    color: aliceblue;
+    border: 1px solid rgb(21, 21, 100);
+    cursor: pointer;
+}
