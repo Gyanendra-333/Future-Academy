@@ -39,9 +39,9 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 0vw 6vw;
-    /* border: 2px solid #002d56; */
     background-color: azure;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
 }
 
 nav img {
@@ -180,7 +180,7 @@ nav .navigation ul li a:hover {
 /* courses */
 
 #course {
-    padding: 6vw 6vw 0 6vw;
+    padding: 6vw;
     text-align: center;
 }
 
@@ -315,7 +315,7 @@ nav .navigation ul li a:hover {
 
 
 #experts {
-    padding: 6vw 6vw 0 6vw;
+    padding: 6vw;
     text-align: center;
 }
 
@@ -420,4 +420,40 @@ footer .subscribe a.yellow {
 footer .subscribe a.yellow:hover {
     background-color: rgb(47 146 36);
     color: aliceblue;
+}
+
+footer .copyright {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+footer .copyright span {
+    color: #e9c505;
+}
+
+footer .copyright span:hover {
+    color: rgb(16 255 2);
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+footer .copyright .pro-links i {
+    padding: 10px 14px;
+    border: 2px solid aliceblue;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 4px;
+}
+
+footer .copyright .pro-links i:hover {
+    background: rgb(162 23 23);
+    color: aliceblue;
+    border: 2px solid rgb(61 61 85);
+    cursor: pointer;
 }
