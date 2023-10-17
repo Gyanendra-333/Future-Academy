@@ -50,6 +50,22 @@ nav img {
     border-radius: 50%;
 }
 
+nav .navigation {
+    display: flex;
+}
+
+#menu-btn {
+    width: 30px;
+    height: 30px;
+    display: none;
+    border: none;
+    border-radius: inherit;
+}
+
+#menu-close {
+    display: none;
+}
+
 nav .navigation ul {
     display: flex;
     justify-content: flex-end;
@@ -110,8 +126,8 @@ nav .navigation ul li a:hover {
 
 #home a {
     text-decoration: none;
-    font-size: 1rem;
-    padding: 12px 36px;
+    font-size: 0.9rem;
+    padding: 12px 18px;
     background-color: aliceblue;
     font-weight: 600;
     border-radius: 10px;
@@ -271,7 +287,7 @@ nav .navigation ul li a:hover {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 30px;
     box-shadow: 0 8px 32px 0 rgba(32, 38, 136, 0.38);
 
 }
@@ -294,12 +310,12 @@ nav .navigation ul li a:hover {
 
 #registration .form a.yellow {
     text-decoration: none;
-    font-size: 1rem;
-    padding: 12px 36px;
+    font-size: 0.9rem;
+    padding: 10px 20px;
     background-color: aliceblue;
     font-weight: 600;
-    border-radius: 10px;
-    margin: 10px;
+    border-radius: 6px;
+    /* margin: 10px; */
     color: aliceblue;
     background-color: darkcyan;
     transition: 0.3s ease;
@@ -382,7 +398,7 @@ footer li {
     padding: 10px 0;
     font-size: 16px;
     cursor: pointer;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     transition: 0.3s ease;
 }
 
@@ -395,7 +411,7 @@ footer .subscribe {
 }
 
 footer input {
-    width: 230px;
+    width: 220px;
     padding: 16px 12px;
     background: #d0dce7;
     color: #171e17;
@@ -435,6 +451,7 @@ footer .copyright span {
     color: #e9c505;
 }
 
+
 footer .copyright span:hover {
     color: rgb(16 255 2);
     font-size: 30px;
@@ -456,4 +473,117 @@ footer .copyright .pro-links i:hover {
     color: aliceblue;
     border: 2px solid rgb(61 61 85);
     cursor: pointer;
+}
+
+/* Responsive Sceen  */
+
+@media (max-width:770px) {
+    nav {
+        padding: 20px;
+    }
+
+    nav img {
+        width: 130px;
+    }
+
+    #menu-btn {
+
+        display: initial;
+
+    }
+
+    #menu-close {
+        display: initial;
+        font-size: 1.6rem;
+        color: aliceblue;
+        padding: 30px 0 20px 60px;
+
+    }
+
+    nav .navigation ul {
+        position: absolute;
+        top: 0;
+        right: -220px;
+        width: 220px;
+        height: 100vh;
+        background-color: rgba(18, 20, 104, 0.45);
+        backdrop-filter: blur(4px);
+        border: 2px solid rgba(255, 255, 255, 0.18);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        transition: 0.3s ease-in-out;
+    }
+
+    nav .navigation ul.active {
+        right: 0;
+    }
+
+    nav .navigation ul li {
+        padding: 20px 0 20px 40px;
+        margin-left: 0;
+    }
+
+    nav .navigation ul li a {
+        color: aliceblue;
+    }
+
+    #home {
+        padding-top: 0px;
+    }
+
+    #home p {
+        width: 90%;
+    }
+
+    #features {
+        padding: 8vw 4vw 0 4vw;
+    }
+
+    #course {
+        padding: 8vw 4vw 0 4vw;
+    }
+
+    #registration {
+        margin-top: 6vw;
+        padding: 6vw 4vw 6vw 4vw;
+    }
+
+    #registration .reminder .time {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    #experts {
+        padding: 8vw 8vw 4vw 8vw;
+        text-align: center;
+    }
+
+    footer .copyright .pro-links {
+        margin-top: 16px;
+    }
+
+}
+
+/* Mobile Responsive  */
+
+@media (max-width:475px) {
+    #registration {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #registration .reminder .time {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
