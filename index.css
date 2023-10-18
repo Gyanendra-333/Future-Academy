@@ -557,6 +557,22 @@ footer .copyright .pro-links i:hover {
     font-size: 16px;
 }
 
+#trust {
+    text-align: center;
+    padding: 6vw;
+}
+
+#trust .trust-img {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#trust .trust-img img {
+    width: 90px;
+    height: 100px;
+}
 
 /* Responsive Sceen  */
 
