@@ -643,6 +643,69 @@ footer .copyright .pro-links i:hover {
     padding-bottom: 60px !important;
 }
 
+/* Course-inner */
+
+#course-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 6vw;
+}
+
+#course-inner .overview {
+    width: 70%;
+}
+
+#course-inner .overview .course-img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+#course-inner .overview .course-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#course-inner .overview .course-head .c-name {
+    width: 70%;
+}
+
+#course-inner .overview .course-head .c-name h2 {
+    color: #012b55;
+}
+
+#course-inner .overview .course-head .c-name .star {
+    margin: 6px 0;
+    color: #e9c505;
+    font-size: 1rem;
+}
+
+#course-inner .overview .course-head .c-name p {
+    font-size: 16px;
+    color: #012b55;
+}
+
+#course-inner .overview .course-head .c-price {
+    padding: 16px 22px;
+    color: #5838fc;
+    border-radius: 6px;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: rgba(88, 56, 252, 0.1);
+}
+
+
+
+
+
+
+
+
+
 /* Responsive Sceen for Pad  */
 
 @media (max-width:770px) {
