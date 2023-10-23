@@ -631,6 +631,17 @@ footer .copyright .pro-links i:hover {
     line-height: 48px;
 }
 
+/* Post  */
+
+#blog-container .blogpost {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#blog-container .blogpost p {
+    text-align: justify;
+    padding-bottom: 60px !important;
+}
 
 /* Responsive Sceen for Pad  */
 
@@ -738,9 +749,19 @@ footer .copyright .pro-links i:hover {
         height: auto;
     }
 
+    /* Blog  */
+
     #blog-container {
         padding: 6vw 4vw;
     }
+
+    /* Post  */
+
+    #blog-container .blogpost {
+        width: 100%;
+        margin-top: 150px;
+    }
+
 
 }
 
