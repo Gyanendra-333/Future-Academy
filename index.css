@@ -791,10 +791,10 @@ footer .copyright .pro-links i:hover {
 }
 
 #contact .getin {
-    width: 350px;
-    background-color: azure;
+    width: 380px;
+    background-color: #dfefef;
     border-radius: 10px;
-    padding: 8px;
+    padding: 30px;
 }
 
 #contact .getin h2 {
@@ -844,7 +844,7 @@ footer .copyright .pro-links i:hover {
 
 #contact .form {
     width: 60%;
-    background-color: azure;
+    background-color: #dfefef;
     padding: 40px;
     border-radius: 10px;
 }
@@ -899,6 +899,17 @@ footer .copyright .pro-links i:hover {
     font-weight: 600;
     cursor: pointer;
     color: aliceblue;
+}
+
+#map {
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 6vw;
+}
+
+#map iframe {
+    width: 100%;
+    height: 100%;
 }
 
 
