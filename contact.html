@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Academy</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <nav>
+        <img src="images/Academy-logo.jpg" alt="future-academy">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="#">
+        </div>
+    </nav>
+
+    <!-- Home -->
+
+    <section id="about-home">
+        <h2>Contact Us ! </h2>
+        <p>An academy is a fancy school, often one devoted to one subject or discipline, such as music or science.</p>
+
+    </section>
+
+    <section id="contact">
+        <div class="getin">
+            <h2>Get in Touch</h2>
+            <p>Looking for help ? Fill the form and start a new adventure.</p>
+            <div class="getin-details">
+                <h3>Headquater</h3>
+                <div>
+                    <i class="fa fa-home get"></i>
+                    <p>743 New York Ave , Brooklyn , Kings <br> New York 10125.</p>
+                </div>
+                <h3>Phone</h3>
+                <div>
+                    <i class="fa fa-phone get"></i>
+                    <p>(+123) 345 235 854 <br>(+641) 857 234 445</p>
+                </div>
+                <h3>Support</h3>
+                <div>
+                    <i class="fa fa-envelope get"></i>
+                    <p>pgyanendra757@gmail.com <br>pgyanendra998@gmail.com</p>
+                </div>
+                <h3>Follow us</h3>
+                <div class="pro-links">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                    <i class="fa fa-youtube"></i>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="form"></div>
+    </section>
+
+    <!-- Footer  -->
+
+    <footer>
+
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Invester Relations</li>
+            <li>Terms of Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>resources</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Privacy Policy</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Refund Policy</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us, We only send promo Offers.</p>
+            <div class="subscribe">
+                <input type="email" placeholder="Enter Your Email">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; copyright 2023 | All Rights reserved | This website is made by <span> Gyanendra Prakash.</span>
+            </p>
+            <div class="pro-links">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active')
+        });
+
+    </script>
+
+</body>
+
+</html>
