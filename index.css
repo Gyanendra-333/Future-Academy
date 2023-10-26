@@ -785,10 +785,16 @@ footer .copyright .pro-links i:hover {
 
 #contact {
     padding: 6vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 #contact .getin {
     width: 350px;
+    background-color: azure;
+    border-radius: 10px;
+    padding: 8px;
 }
 
 #contact .getin h2 {
@@ -834,6 +840,65 @@ footer .copyright .pro-links i:hover {
 
 #contact .getin .getin-details .pro-links i {
     margin-right: 10px;
+}
+
+#contact .form {
+    width: 60%;
+    background-color: azure;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#contact .form h4 {
+    font-size: 24px;
+    color: #002d56;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+
+#contact .form p {
+    color: #002d56;
+    line-height: 24px;
+    padding-bottom: 26px;
+}
+
+#contact .form .form-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#contact .form .form-row input {
+    width: 48%;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 1px solid goldenrod;
+    background: #fff;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+#contact .form .form-col input,
+#contact .form .form-col textarea {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 1px solid goldenrod;
+    background: #fff;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+#contact .form button {
+    font-size: 0.9rem;
+    padding: 14px 26px;
+    background: rgb(21, 21, 100);
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    color: aliceblue;
 }
 
 
