@@ -791,10 +791,8 @@ footer .copyright .pro-links i:hover {
 }
 
 #contact .getin {
-    width: 380px;
-    background-color: #dfefef;
+    width: 350px;
     border-radius: 10px;
-    padding: 30px;
 }
 
 #contact .getin h2 {
@@ -1066,6 +1064,16 @@ footer .copyright .pro-links i:hover {
     #course-inner .enroll {
         margin-top: 34px;
     }
+
+    /* Contact  */
+
+    #contact {
+        padding: 8vw 2vw;
+    }
+
+    #contact .getin {
+        width: 280px;
+    }
 }
 
 
@@ -1134,6 +1142,36 @@ footer .copyright .pro-links i:hover {
     }
 
     #course-inner .enroll {
+        width: 100%;
+    }
+
+    /* Contact  */
+
+    #contact {
+        padding: 8vw 4vw;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    #contact .getin {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #contact .form {
+        width: 100%;
+        padding: 40px;
+    }
+
+    #contact .form .form-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    #contact .form .form-row input {
         width: 100%;
     }
 
